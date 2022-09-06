@@ -1,5 +1,5 @@
 import "./Comp.css"
-import logo from "../Assests/logo.png"
+import logo from "../Assests/logon.png"
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,7 +8,7 @@ export default function Head() {
   return (
     <>
       <div className="top">
-        <img src={logo} width="150px" />
+        <img src={logo} width="200px" />
       </div>
       <Navbar expand="lg" className='head' >
 

@@ -3,13 +3,13 @@ import { MDBFooter } from 'mdb-react-ui-kit';
 
 export default function App() {
   return (
-    <MDBFooter style={{backgroundColor:"#b19378"}} className='text-center text-lg-start text-muted'>
+    <MDBFooter style={{backgroundColor:"white"}} className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block' style={{color:"white"}}>
+        <div className='me-5 d-none d-lg-block' style={{color:"black"}}>
           <span>Get connected with us on social networks:</span>
         </div>
 
-        <div style={{color:"white"}}>
+        <div style={{color:"black"}}>
           <a href='' className='me-4 text-reset'>
             <i className='fab fa-facebook-f'></i>
           </a>
@@ -31,7 +31,7 @@ export default function App() {
         </div>
       </section>
 
-      <section className='' style={{color:"white"}}>
+      <section className='' style={{color:"black"}}>
         <div className='container text-center text-md-start mt-5'>
           <div className='row mt-3'>
             <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>

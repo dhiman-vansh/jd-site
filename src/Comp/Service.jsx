@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import pic from "../Assests/pic.jpg"
 
 export default function Service() {
   var settings = {
@@ -25,10 +26,10 @@ export default function Service() {
     <>
       <div id="service" className="serv">
         <section>
-          <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/12/20181209_144555-1-min-1.jpg" width={"89%"} />
+          <img src={pic} width={"100%"} />
         </section>
         <section>
-          <img src="https://jdelegantinteriors.com/wp-content/uploads/2020/04/Logo_mock-1024x683.png" width={"100%"} />
+          <img src={pic} width={"100%"} />
         </section>
       </div>
 
@@ -36,36 +37,36 @@ export default function Service() {
         <h2 style={{marginBottom:"30px"}}> Our Services </h2>
         <Slider {...settings}>
           <div className="cont">
-            <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/09/20181230_125421-min-768x576.jpg" width={"100%"} />
-            <section className="txt">This image looks super neat.</section>
+            <img src={pic} width={"100%"} />
+            <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">
-            <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/09/20181230_125421-min-768x576.jpg" width={"100%"} />
-            <section className="txt">This image looks super neat.</section>
+            <img src={pic} width={"100%"} />
+            <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">
-            <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/09/20181230_125421-min-768x576.jpg" width={"100%"} />
-            <section className="txt">This image looks super neat.</section>
+            <img src={pic} width={"100%"} />
+            <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">
-            <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/09/20181230_125421-min-768x576.jpg" width={"100%"} />
-            <section className="txt">This image looks super neat.</section>
+            <img src={pic} width={"100%"} />
+            <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">
-            <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/09/20181230_125421-min-768x576.jpg" width={"100%"} />
-            <section className="txt">This image looks super neat.</section>
+            <img src={pic} width={"100%"} />
+            <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">
-            <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/09/20181230_125421-min-768x576.jpg" width={"100%"} />
-            <section className="txt">This image looks super neat.</section>
+            <img src={pic} width={"100%"} />
+            <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">
-            <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/09/20181230_125421-min-768x576.jpg" width={"100%"} />
-            <section className="txt">This image looks super neat.</section>
+            <img src={pic} width={"100%"} />
+            <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">
-            <img src="https://jdelegantinteriors.com/wp-content/uploads/2021/09/20181230_125421-min-768x576.jpg" width={"100%"} />
-            <section className="txt">This image looks super neat.</section>
+            <img src={pic} width={"100%"} />
+            <section className="txt">Desginer Look</section>
           </div>
         </Slider>
       </div>
