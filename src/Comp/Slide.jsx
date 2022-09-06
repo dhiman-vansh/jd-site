@@ -2,10 +2,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import wide from "../Assests/wide-dine.jpg"
 import wide2 from "../Assests/wide2.jpg"
 import wide3 from "../Assests/wide3.jpg"
-
+import cover from "../Assests/cover.jpg"
 
 function IndividualIntervalsExample() {
   return (
+    <>
+    <img src= {cover} width="100%" />
+    <h1 style={{textAlign:"center", margin:"20px", color:"#cc9c74"}}>Our Collection</h1>
     <Carousel fade>
       <Carousel.Item interval={1000}>
         <img
@@ -42,6 +45,8 @@ function IndividualIntervalsExample() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </>
+
   );
 }
 
