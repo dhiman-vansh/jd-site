@@ -1,9 +1,10 @@
 import React from 'react';
+import "./Comp.css"
 import { MDBFooter } from 'mdb-react-ui-kit';
 
 export default function App() {
   return (
-    <MDBFooter style={{backgroundColor:"white"}} className='text-center text-lg-start text-muted'>
+    <MDBFooter className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block' style={{color:"black"}}>
           <span>Get connected with us on social networks:</span>
@@ -92,17 +93,20 @@ export default function App() {
               </p>
             </div> */}
 
-            <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
+            <div className='col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <i className='fas fa-home me-3'></i> Dehradun, Uttarakhand
+                <i className='fas fa-home me-3'></i> 1/14 Sahranpur Road, Dehradun, Uttarakhand
               </p>
               <p>
                 <i className='fas fa-envelope me-3'></i>
-                jdinterior@gmail.com
+                joytidabral.elegantinteriors@gmail.com
               </p>
               <p>
-                <i className='fas fa-phone me-3'></i> + 01 234 567 88
+                <i className='fas fa-phone me-3'></i> +91 9557007770
+              </p>
+              <p>
+                <i className='fas fa-phone me-3'></i> +91 8191970012
               </p>
               {/* <p>
                 <i className='fas fa-print me-3'></i> + 01 234 567 89

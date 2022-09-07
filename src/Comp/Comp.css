@@ -77,3 +77,6 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+.text-center text-lg-start text-muted{
+    background-image: linear-gradient(to bottom, #ecdbcc,white);
+}
