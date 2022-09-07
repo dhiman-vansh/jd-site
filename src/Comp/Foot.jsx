@@ -12,24 +12,24 @@ export default function App() {
         </div>
 
         <div style={{color:"black"}}>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/jdelegantinteriors/' className='me-4 text-reset'>
             <i className='fab fa-facebook-f'></i>
           </a>
-          <a href='' className='me-4 text-reset'>
+          {/* <a href='' className='me-4 text-reset'>
             <i className='fab fa-twitter'></i>
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </a> */}
+          <a href='https://www.google.com/search?client=opera-gx&q=jd%20interiors&sourceid=opera&ie=UTF-8&oe=UTF-8&hs=GYd&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsZqduR3MdOKucZqSy4BcHVnzXChBg:1662553848119&rflfq=1&num=10&rldimm=17897028522918420754&lqi=CgxqZCBpbnRlcmlvcnNI1PLqwdm4gIAIWhYQABABGAAYASIMamQgaW50ZXJpb3JzkgERaW50ZXJpb3JfZGVzaWduZXI&ved=2ahUKEwiwxKXc14L6AhULSmwGHS-sAaoQvS56BAgXEAE&sa=X&rlst=f#rlfi=hd:;si:17897028522918420754,l,CgxqZCBpbnRlcmlvcnNI1PLqwdm4gIAIWhYQABABGAAYASIMamQgaW50ZXJpb3JzkgERaW50ZXJpb3JfZGVzaWduZXI;mv:[[32.6711021,89.3895221],[8.4432678,72.2562176]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2' className='me-4 text-reset'>
             <i className='fab fa-google'></i>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/jdelegantinteriors/' className='me-4 text-reset'>
             <i className='fab fa-instagram'></i>
           </a>
-          <a href='' className='me-4 text-reset'>
+          {/* <a href='' className='me-4 text-reset'>
             <i className='fab fa-linkedin'></i>
           </a>
           <a href='' className='me-4 text-reset'>
             <i className='fab fa-github'></i>
-          </a>
+          </a> */}
         </div>
       </section>
 
@@ -100,7 +100,7 @@ export default function App() {
                 <i className='fas fa-home me-3'></i> 1/14 Sahranpur Road, Dehradun, Uttarakhand
               </p>
               <p>
-                <i className='fas fa-envelope me-3'></i>
+                <i className='fas fa-envelope me-4'></i>
                 joytidabral.elegantinteriors@gmail.com
               </p>
               <p>
@@ -118,8 +118,8 @@ export default function App() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+        © 2022 Copyright:
+        <a className='text-reset fw-bold' href='https://zebrians.in'>
           Zebrians.com
         </a>
       </div>
