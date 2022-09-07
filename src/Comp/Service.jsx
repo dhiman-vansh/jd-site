@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import pic from "../Assests/pic.jpg"
+import lobby from "../Assests/lobby.jpg"
 
 export default function Service() {
   var settings = {
@@ -29,7 +30,7 @@ export default function Service() {
           <img src={pic} width={"100%"} />
         </section>
         <section>
-          <img src={pic} width={"100%"} />
+          <img src={lobby} width={"100%"} />
         </section>
       </div>
 
