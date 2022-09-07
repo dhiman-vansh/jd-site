@@ -39,7 +39,7 @@ export default function Service() {
         <Slider {...settings}>
           <div className="cont">
             <img src={pic} width={"100%"} />
-            <section className="txt">Desginer Look</section>
+            <section className="txt">Best in Design</section>
           </div>
           <div className="cont">
             <img src={lobby} width={"100%"} />
@@ -47,7 +47,7 @@ export default function Service() {
           </div>
           <div className="cont">
             <img src={pic} width={"100%"} />
-            <section className="txt">Desginer Look</section>
+            <section className="txt">Best in Design</section>
           </div>
           <div className="cont">
             <img src={lobby} width={"100%"} />
@@ -55,7 +55,7 @@ export default function Service() {
           </div>
           <div className="cont">
             <img src={pic} width={"100%"} />
-            <section className="txt">Desginer Look</section>
+            <section className="txt">Best in Design</section>
           </div>
           <div className="cont">
             <img src={lobby} width={"100%"} />
@@ -63,7 +63,7 @@ export default function Service() {
           </div>
           <div className="cont">
             <img src={pic} width={"100%"} />
-            <section className="txt">Desginer Look</section>
+            <section className="txt">Best in Design</section>
           </div>
           <div className="cont">
             <img src={lobby} width={"100%"} />
