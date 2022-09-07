@@ -71,3 +71,10 @@
     opacity: 0.8;
     cursor: pointer;
 }
+.navbar-light .navbar-toggler {
+    /* background-color: white; */
+
+    background-image: url(../Assests/ham.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
