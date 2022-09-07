@@ -11,7 +11,7 @@ function IndividualIntervalsExample() {
     <h1 style={{textAlign:"center", margin:"20px", color:"#cc9c74"}}>Our Collection</h1>
     <Carousel fade>
       <Carousel.Item interval={1000}>
-        <img
+        <img00
           className="d-block w-100"
           src={wide}
           style={{maxHeight:"845px"}}
