@@ -4,10 +4,7 @@ import "./Comp.css"
 // import pic from "../Assests/goat.jpg"
 
 
-
-
 export default class Utube extends Component {
-
   
   render() {
     var settings = {

@@ -89,3 +89,31 @@
 .utube h2{
     padding: 1%;
 }
+
+.gal {
+    margin: auto;
+}
+.gal section{
+    display: inline;
+    position: relative;
+}   
+.gal img {
+    padding: 5px;
+    position: relative;
+    transition: 0.5s ;
+    border-radius: 4%;
+    /* opacity: 0.85; */
+    /* background-color: black; */
+}
+.gal section span{
+    position: absolute;
+    background-color: yellow;
+    top: 50%;
+    visibility: hidden;
+    left: 50%;
+}
+.gal img:hover {
+    transform: scale(1.02);
+    opacity: 1;
+    cursor: pointer;
+}
