@@ -19,7 +19,7 @@ export default function Head() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/gall">Gallery</Nav.Link>
               <Nav.Link href="#link">About Us</Nav.Link>
             </Nav>
