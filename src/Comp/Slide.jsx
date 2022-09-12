@@ -13,7 +13,7 @@ function IndividualIntervalsExample() {
     width="100%" />
     <h1 style={{textAlign:"center", padding:"20px", color:"#cc9c74"}}>Our Collection</h1>
     <Carousel fade>
-      <Carousel.Item interval={1000}>
+      {/* <Carousel.Item interval={1000}>
         <img00
           className="d-block w-100"
           src={wide}
@@ -24,7 +24,7 @@ function IndividualIntervalsExample() {
           <h3>JD Elegant Interiors</h3>
           <p>JD Elegant brings 12+ years of experience right to your home or office</p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
