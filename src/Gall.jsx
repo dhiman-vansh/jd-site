@@ -101,7 +101,7 @@ export default function Gall() {
   return (
     <>
     <Head />
-      <div style={{ backgroundColor: "#ffe4c4" }} >
+      <div style={{ backgroundColor: "#ffe4c4", overflow:"hidden" }} >
         {/* <h1 style={{textAlign:"center",marginTop:"2%"}}>Gallery </h1> */}
 
         <div>
