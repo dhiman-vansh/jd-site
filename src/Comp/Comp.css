@@ -98,22 +98,22 @@
     position: relative;
 }   
 .gal img {
-    padding: 5px;
+    padding: 4px;
     position: relative;
     transition: 0.5s ;
-    border-radius: 4%;
-    /* opacity: 0.85; */
+    border-radius: 0%;
+    opacity: 0.9;
     /* background-color: black; */
 }
 .gal section span{
     position: absolute;
-    background-color: yellow;
+    /* background-color: yellow; */
     top: 50%;
     visibility: hidden;
     left: 50%;
 }
 .gal img:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     opacity: 1;
     cursor: pointer;
 }
