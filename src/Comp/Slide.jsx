@@ -11,7 +11,7 @@ function IndividualIntervalsExample() {
     data-aos-delay="500"
     data-aos-duration="50000"
     width="100%" />
-    <h1 style={{textAlign:"center", padding:"20px", color:"#cc9c74"}}>Our Collection</h1>
+    <h1 style={{textAlign:"center", padding:"20px", color:"black"}}>Our Collection</h1>
     <Carousel fade>
       {/* <Carousel.Item interval={1000}>
         <img00
