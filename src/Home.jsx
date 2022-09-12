@@ -6,7 +6,7 @@ import Utube from "./Comp/Utube"
 
 export default function Home() {
     return(
-        <div style={{overflow:"hidden"}}>
+        <div style={{overflow:"hidden", backgroundColor:"peachpuff"}}>
         <Head />
         <Slide />
         <Service />

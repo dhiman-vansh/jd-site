@@ -1,7 +1,7 @@
 .top {
     text-align: center;
     /* padding: -1%; */
-    background-image: linear-gradient(to bottom, #ecdbcc,white);
+    background-image: linear-gradient(to bottom, peachpuff,white);
     /* background-color: white; */
     /* background-color: white; */
 }
@@ -31,7 +31,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: white;
+    /* background-color: white; */
     flex-wrap: wrap;
     padding: 5% 0px;
     /* max-width: 1400px; */
@@ -44,7 +44,7 @@
 .slid{
     overflow: hidden;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     padding: 1% 2%;
 }
 .cont{
@@ -78,13 +78,13 @@
     background-repeat: no-repeat;
 }
 .footdiv{
-    background-image: linear-gradient(to top, #ecdbcc,white);
+    background-image: linear-gradient(to top, peachpuff,white);
 }
 
 .utube{
     text-align: center;
     padding: 1%;
-    /* background-image: linear-gradient(to bottom, #ecdbcc,white); */
+    background-image: linear-gradient(to bottom, peachpuff,white);
 }
 .utube h2{
     padding: 1%;
