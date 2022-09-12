@@ -6,12 +6,12 @@ import Utube from "./Comp/Utube"
 
 export default function Home() {
     return(
-        <>
+        <div style={{overflow:"hidden"}}>
         <Head />
         <Slide />
         <Service />
         <Utube />
         <Foot />
-        </>
+        </div>
     )
 }
