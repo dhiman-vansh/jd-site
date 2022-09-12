@@ -6,7 +6,7 @@ import Utube from "./Comp/Utube"
 
 export default function Home() {
     return(
-        <div style={{overflow:"hidden", backgroundColor:"peachpuff"}}>
+        <div style={{overflow:"hidden", backgroundImage:"linear-gradient(to bottom,peachpuff,white)"}}>
         <Head />
         <Slide />
         <Service />

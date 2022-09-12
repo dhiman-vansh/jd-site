@@ -84,7 +84,7 @@
 .utube{
     text-align: center;
     padding: 1%;
-    background-image: linear-gradient(to bottom, peachpuff,white);
+    /* background-image: linear-gradient(to bottom, peachpuff,white); */
 }
 .utube h2{
     padding: 1%;
