@@ -98,7 +98,7 @@
     position: relative;
 }   
 .gal img {
-    padding: 0px;
+    padding: 4px;
     position: relative;
     transition: 0.5s ;
     border-radius: 0%;
