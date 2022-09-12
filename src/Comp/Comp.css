@@ -117,3 +117,7 @@
     opacity: 1;
     cursor: pointer;
 }
+.headicon {
+    position: absolute;
+    right: 5%;
+}
