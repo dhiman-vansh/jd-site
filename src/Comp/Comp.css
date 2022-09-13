@@ -19,12 +19,6 @@
     /* box-shadow: 2px 2px 20px 2px green; */
     font-weight: 500;  
 }
-@media screen and (max-width: 990px) {
-    .head img {
-        right: 10%;
-        left: auto;
-    }
-}
 
 
 .serv{
@@ -120,4 +114,14 @@
 .headicon {
     position: absolute;
     right: 5%;
+}
+
+@media screen and (max-width: 990px) {
+    .head img {
+        /* right: 10%; */
+        left: auto;
+    }
+    .headicon {
+        top: 50%;
+    }
 }
