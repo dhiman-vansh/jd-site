@@ -3,6 +3,7 @@ import logo from "../Assests/logon.png"
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
 
 export default function Head() {
   return (
@@ -19,9 +20,9 @@ export default function Head() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/gall">Gallery</Nav.Link>
-              <Nav.Link href="#link">About Us</Nav.Link>
+              <Link to="/"><p>Home</p></Link>
+              <Link to='/gall'><p >Gallery</p></Link>
+              <Link to="/about"><p>About Us</p></Link>
             </Nav>
 
             {/* <a href='' className='me-4 text-reset'>

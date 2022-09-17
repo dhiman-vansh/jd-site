@@ -13,7 +13,7 @@
     /* z-index: 50; */
 }
 .head a{
-    color:white;
+    color: black;
     margin: 0px 20px;  
     font-size: 20px;
     /* box-shadow: 2px 2px 20px 2px green; */
@@ -92,7 +92,7 @@
     position: relative;
 }   
 .gal img {
-    padding: 0px;
+    padding: 4px;
     position: relative;
     transition: 0.5s ;
     border-radius: 0%;
