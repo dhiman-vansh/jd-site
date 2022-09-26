@@ -14,7 +14,8 @@
 }
 .head a{
     color: black;
-    margin: 0px 20px;  
+    padding: 5px 20px;
+    /* margin: 0px 20px;   */
     font-size: 20px;
     /* box-shadow: 2px 2px 20px 2px green; */
     font-weight: 500;  
@@ -124,4 +125,25 @@
     .headicon {
         top: 50%;
     }
+    .head a{
+        padding: 0px 1px;
+    }
+}
+.dropdown{
+    color: black;
+    /* bottom: 5px; */
+}
+.about {
+    display: flex;
+}
+.about section {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about txt{
+    display: block;
+    font-size: larger;
+    padding: 50% 10%;
 }
