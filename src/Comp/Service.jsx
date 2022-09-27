@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import pic from "../Assests/pic.jpg"
 import lobby from "../Assests/lobby.jpg"
+import sofa from "../Assests/sofa.jpg"
+import stair from "../Assests/stair.jpg"
+
 
 export default function Service() {
   var settings = {
@@ -38,19 +41,19 @@ export default function Service() {
         <h2 style={{marginBottom:"30px"}}> Our Services </h2>
         <Slider {...settings}>
           <div className="cont">
-            <img src={pic} width={"100%"} />
+            <img src={sofa} width={"100%"} />
             <section className="txt">Best in Design</section>
           </div>
           <div className="cont">
-            <img src={lobby} width={"100%"} />
+            <img src={stair} width={"100%"} />
             <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">
-            <img src={pic} width={"100%"} />
+            <img src={sofa} width={"100%"} />
             <section className="txt">Best in Design</section>
           </div>
           <div className="cont">
-            <img src={lobby} width={"100%"} />
+            <img src={stair} width={"100%"} />
             <section className="txt">Desginer Look</section>
           </div>
           <div className="cont">

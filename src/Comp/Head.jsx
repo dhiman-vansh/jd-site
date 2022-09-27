@@ -23,7 +23,7 @@ export default function Head() {
             <Nav className="m-auto">
               <Link to="/"><p>Home</p></Link>
               <Link to='/gall'><p >Gallery</p></Link>
-              <Link to="/about"><p>About Us</p></Link>
+              <Link to="/about"><p>Founders</p></Link>
 
               <NavDropdown title="Our Services" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
