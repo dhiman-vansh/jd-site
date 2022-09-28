@@ -141,7 +141,7 @@
     width: 50%;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -149,6 +149,9 @@
     display: block;
     font-size: larger;
     padding-left: 2%;
+    line-height: 200%;
+    padding: 2%;
+    /* font-size: larger; */
     /* padding: 50% 10%; */
 }
 .about section div {
@@ -162,4 +165,11 @@
 .about section div:hover{
     cursor: pointer;
     box-shadow: #b4875c 15px 5px 20px 1px;
+}
+.botxt {
+    background-image: linear-gradient(to right, peachpuff, white);
+    font-size: larger;
+    line-height: 200%;
+    padding: 2%;
+    text-align: center;
 }

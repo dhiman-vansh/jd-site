@@ -28,7 +28,7 @@ export default function Service() {
   };
   return (
     <>
-      <div id="service" className="serv">
+      <div id="service" className="serv"  data-aos="fade-up">
         <section>
           <img src={pic} width={"100%"} />
         </section>
@@ -37,7 +37,7 @@ export default function Service() {
         </section>
       </div>
 
-      <div className="slid">
+      <div className="slid"  data-aos="fade-up">
         <h2 style={{marginBottom:"30px"}}> Our Services </h2>
         <Slider {...settings}>
           <div className="cont">

@@ -43,7 +43,8 @@ export default class Utube extends Component {
       ]
     };
     return (
-      <div className="utube">
+      <div className="utube"
+      data-aos="fade-up">
         <h2> Youtube </h2>
         <Slider {...settings}>
           <div>
