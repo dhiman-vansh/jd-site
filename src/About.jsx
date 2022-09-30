@@ -20,7 +20,6 @@ export default function About() {
             Whether you are looking to design your home, office, commercial space, banquets, resorts, restaurants or any place where you wish to thrive, our creative excellence, design expertise and thoughtful solutions are your best bet. We aren’t the only ones saying it, but also our numerous satisfied customers as well as organisations like The Times of India who recognised our founder, Jyoti Dabral, as one of the Top Leaders of Uttrakhand - 2022.
             <br></br>
             <br></br>
-
           </txt>
         </section>
         <section>
