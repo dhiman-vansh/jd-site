@@ -156,11 +156,15 @@
 }
 .about section div {
     max-width: 24rem;
+    /* max-height: 20rem; */
     box-shadow:#b4875c 8px 2px 10px 1px;
     border: rgb(253, 182, 119) solid 2px;
     margin: 1%;
     background-image: linear-gradient(to right, peachpuff,white,peachpuff);
     /* padding-bottom: 10%; */
+}
+.about section div img {
+    max-height: 24rem;
 }
 .about section div:hover{
     cursor: pointer;

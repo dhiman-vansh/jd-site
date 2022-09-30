@@ -12,12 +12,15 @@ export default function About() {
       <div className="about">
         <section>
           <txt>
-      <h1 style={{ padding: "1% 10%" }}>Founders</h1>
-
+            <h1 style={{ padding: "1% 10%" }}>Founders</h1>
+            <br></br>
             At Elegant Interiors, we believe that it’s all that and much more. Truly phenomenal spaces are meant to not only appease one’s senses in every way possible, but also allow one to truly be at ease. It goes without saying that every individual has their own set of needs and wants, which is why, we strive to minutely cater to each of these aspects and provide you with fully personalised interior solutions.
+            <br></br>
+            <br></br>
             Whether you are looking to design your home, office, commercial space, banquets, resorts, restaurants or any place where you wish to thrive, our creative excellence, design expertise and thoughtful solutions are your best bet. We aren’t the only ones saying it, but also our numerous satisfied customers as well as organisations like The Times of India who recognised our founder, Jyoti Dabral, as one of the Top Leaders of Uttrakhand - 2022.
-            Jyoti Dabral and Akhil Dabral co-founded Elegant Interiors in 2009 and have since then touched and enhanced lives through their impeccable work spanning over 4.75 Lakh sqft. across 1350 homes. We strongly believe that living spaces are an extension of their owners and must reflect aspects of their personality so they can truly feel comfortable and thrive in it.
-            
+            <br></br>
+            <br></br>
+
           </txt>
         </section>
         <section>
@@ -33,7 +36,12 @@ export default function About() {
             </text></div>
         </section>
       </div>
-      <div className="botxt">We operate out of the beautiful and picturesque Doon Valley and have undertaken projects across the length and breadth of the country. You can come witness our unique work and craftsmanship at our Studio & Experience Center in Crossroads Mall, where you can truly feel what it’s like to be amidst gorgeous living spaces that are designed to let you thrive in.</div>
+      <div className="botxt">
+        Jyoti Dabral and Akhil Dabral co-founded Elegant Interiors in 2009 and have since then touched and enhanced lives through their impeccable work spanning over 4.75 Lakh sqft. across 1350 homes. We strongly believe that living spaces are an extension of their owners and must reflect aspects of their personality so they can truly feel comfortable and thrive in it.
+        <br></br>
+        <br></br>
+
+        We operate out of the beautiful and picturesque Doon Valley and have undertaken projects across the length and breadth of the country. You can come witness our unique work and craftsmanship at our Studio & Experience Center in Crossroads Mall, where you can truly feel what it’s like to be amidst gorgeous living spaces that are designed to let you thrive in.</div>
       <Foot />
     </>
   )
