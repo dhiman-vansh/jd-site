@@ -2,7 +2,7 @@ import ceo from "./Assests/ceo.jpg"
 import ceof from "./Assests/ceof.jpg"
 import Head from "./Comp/Head"
 import Foot from "./Comp/Foot"
-
+import "./App.css"
 
 export default function About() {
   return (
