@@ -186,6 +186,9 @@
     .about section {
         width: 100%;
     }
+    .contact div{
+        flex-direction: column;
+    }
 }
 
 .contact {
