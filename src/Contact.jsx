@@ -12,12 +12,12 @@ export default function Contact() {
 				<div>
 					<section style={{width:"30%"}}>
 						<h4>Address</h4>
-						<li>138 Atlantis Ln Kingsport Illinois 121164</li>
+						<li> 1/14 Sahranpur Road, Dehradun, Uttarakhand</li>
 						<h4>Call us</h4>
-						<li>800-2345-6789</li>
-						<li>800-2345-6789</li>
+						<li>+91 9557007770</li>
+						<li>+91 8191970012</li>
 						<h4>Mail</h4>
-						<li>mail@demolink.org</li>
+						<li>joytidabral.elegantinteriors@gmail.com</li>
 					</section>
 					<section style={{width:"70%"}}>
 						<h4>Let us Reach You</h4>
